@@ -1,7 +1,7 @@
 export default function Abstract() {
   return (
     <div>
-      <div className="bg-gray-100  mx-10 rounded-xl mb-10">
+      <div className="bg-gray-100  mx-10 rounded-xl mb-10 mt-10">
         <div className="px-10 py-3">
           <h1 className="text-2xl font-sans flex justify-center items-center font-bold mt-3">
             Abstract
