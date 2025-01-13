@@ -1,5 +1,7 @@
 "use client";
+
 import React, {
+  JSX,
   useEffect,
   useRef,
   useState,
@@ -163,7 +165,7 @@ export const Card = ({
   layout?: boolean;
 }) => {
   const [open, setOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null!);
   const { onCardClose, currentIndex } = useContext(CarouselContext);
 
   useEffect(() => {
