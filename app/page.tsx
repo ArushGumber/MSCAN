@@ -3,6 +3,7 @@ import Abstract from "@/components/abstract";
 import { ImgCarousel } from "@/components/image-caraousel";
 import Footbar from "@/components/footbar";
 import Citation from "@/components/citation";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,8 +16,15 @@ export default function Home() {
         </div>
       </div>
       <Abstract />
-      <ImgCarousel></ImgCarousel>
-      <Citation />
+      <div className="grid cols-2">
+        <div><Image width="100%" height="100%" alt="diagram1" src="/diagram1.jpg" layout="responsive"></Image></div>
+        <div><Image width="100%" height="100%" alt="diagram3" src="/diagram3.jpg" layout="responsive"></Image></div>
+      </div>
+      <div>
+        <Image width="100%" height="100%" alt="diagram2" src="/diagram2.jpg" layout="responsive"></Image>
+      </div>
+      {/* <ImgCarousel></ImgCarousel> */}
+      {/* <Citation /> */}
       <Footbar />
     </div>
   );

@@ -7,22 +7,7 @@ export default function Abstract() {
             Abstract
           </h1>
           <p className="text-m font-sans text-justify pl-20 pr-20 mt-10 mb-20 leading-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            fringilla consectetur varius. Maecenas vel est sit amet urna rhoncus
-            fermentum nec ut purus. Proin pretium tempor purus, at faucibus odio
-            maximus vitae. Mauris ullamcorper fermentum elit, at sollicitudin
-            elit. Curabitur gravida, dolor quis rutrum laoreet, magna felis
-            finibus nibh, vitae iaculis odio nisl eget est. Nam tempus id justo
-            sed ullamcorper. Nullam semper sagittis erat vitae finibus. Nam
-            ultrices sollicitudin maximus. In tortor massa, rhoncus id arcu sit
-            amet, pretium ultricies nulla. Etiam nisl tellus, accumsan id
-            sodales id, tempus vitae diam. Sed vel magna eu ante venenatis
-            tincidunt. Vivamus hendrerit varius sapien, eget elementum eros
-            cursus vel. Ut vitae convallis odio. In nec efficitur massa. Sed sed
-            ligula dui. Aliquam sit amet purus enim. Mauris semper accumsan
-            dapibus. Etiam libero lacus, congue a purus vel, sagittis aliquet
-            arcu. Proin placerat augue vel feugiat consectetur. Donec rutrum
-            felis imperdiet ipsum.
+            The increasing prevalence of lumbar spinal canalstenosis has resulted in a surge of MRI imaging, leading to labor-intensive interpretation and significant inter-reader variability,even among expert radiologists. This paper introduces a noveland efficient deep-learning framework that fully automates thegrading of lumbar spinal canal stenosis. We demonstrate state-of-the-art performance in grading spinal canal stenosis on adataset of 1,975 unique studies, each containing three distincttypes of 3D cross-sectional spine images: Axial T2, Sagittal T1,and Sagittal T2/STIR. Using a distinctive training strategy, ourproposed multistage approach effectively integrates Sagittal andAxial images. This strategy employs a multi-view model with asequence-based architecture, optimizing feature extraction andcross-view alignment to achieve superior predictive accuracy inspinal canal stenosis grading.
           </p>
         </div>
       </div>
