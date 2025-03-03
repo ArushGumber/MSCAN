@@ -1,16 +1,15 @@
-import { GithubBtn, ArxivBtn, PDFBtn } from "./ImageBtn";
-import data from "../data/data.json";
-import Button from '@component'; // Add the correct import for Button
+
+import { GithubBtn, PDFBtn, GradioBtn } from "./ImageBtn";
 
 export default function introPaper(props: { name: string }) {
   return (
     <div>
       <div className="mt-10 mb-10">
         <div className="flex justify-center items-center">
-          <h1 className="text-5xl font-black font-sans ">MSCAN</h1>
+          <h1 className="text-4xl font-bold font-sans ">MSCAN</h1>
         </div>
         <div className="flex justify-center items-center">
-          <h2 className="text-3xl font-medium font-sans ">
+          <h2 className="text-4xl font-bold font-sans ">
             Explainable Lumbar Spinal Stenosis Diagnosis
           </h2>
         </div>
@@ -46,12 +45,12 @@ export default function introPaper(props: { name: string }) {
         </h3>
 
         <div className="flex justify-center items-center mt-4 gap-2">
-          {/* <GithubBtn /> */}
+          <GithubBtn />
           {/* <ArxivBtn /> */}
           <PDFBtn />
-          <Button>Gradio</Button>
-        </div>
+          <GradioBtn />
       </div>
+    </div>
     </div>
   );
 }
