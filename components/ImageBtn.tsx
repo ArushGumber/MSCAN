@@ -19,7 +19,7 @@ export function GithubBtn() {
 
 export function ArxivBtn() {
   const handleClick = () => {
-    window.location.href = "https://arxiv.org/abs/your-paper-id";
+    window.location.href = "https://arxiv.org/abs/2503.01634";
   };
 
   return (
