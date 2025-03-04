@@ -11,7 +11,7 @@ export default function Home() {
       <IntroPaper name="Hello World" />
       <div className="mt-10 bg-white shadow-sm">
         <div className="flex justify-center">
-          <video src="/sample-video.mp4" controls className="inline block" loop width="1040" height="648">
+          <video src="/video.mp4" controls className="inline block" loop width="1040" height="648">
           </video>
         </div>
       </div>

@@ -44,12 +44,12 @@ export function PDFBtn() {
 }
 export function GradioBtn(){
   const handleClick = () => {
-    window.location.href = "https://";
+    window.location.href = "https://www.youtube.com/watch?v=M1XFXeJkU1g";
   };
 
   return (
     <Button className={"bg-primary rounded-2xl"} onClick={handleClick}>
-      <span className={"mx-2 font-bold font-sans"}>Gradio Demo</span>
+      <span className={"mx-2 font-bold font-sans"}>Demo</span>
     </Button>
   );
 
