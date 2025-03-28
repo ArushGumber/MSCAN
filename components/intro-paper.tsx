@@ -19,7 +19,7 @@ export default function introPaper(props: { name: string }) {
         {/* Conference info */}
         <div className="text-center mb-4">
           <h2 className="text-xl md:text-2xl font-medium font-sans">
-            CVPR'25 Demo
+            CVPR&apos;25 Demo
           </h2>
         </div>
         
