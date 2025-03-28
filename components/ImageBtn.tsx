@@ -6,7 +6,7 @@ import { BsFileEarmarkPdf } from "react-icons/bs";
 
 export function GithubBtn() {
   const handleClick = () => {
-    window.location.href = "https://github.com/your-repo";
+    window.location.href = "code - https://github.com/Deep-learning-exp/M-SCAN";
   };
 
   return (

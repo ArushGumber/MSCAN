@@ -1,56 +1,60 @@
-
-import { GithubBtn, PDFBtn, GradioBtn } from "./ImageBtn";
+import { GithubBtn, ArxivBtn, GradioBtn } from "./ImageBtn";
 
 export default function introPaper(props: { name: string }) {
   return (
-    <div>
-      <div className="mt-10 mb-10">
-        <div className="flex justify-center items-center">
-          <h1 className="text-4xl font-bold font-sans ">MSCAN</h1>
+    <div className="container mx-auto px-4 md:px-6">
+      <div className="my-8 md:my-10">
+        {/* Main title */}
+        <div className="text-center mb-2">
+          <h1 className="text-3xl md:text-4xl font-bold font-sans">MSCAN</h1>
         </div>
-        <div className="flex justify-center items-center">
-          <h2 className="text-4xl font-bold font-sans ">
+        
+        {/* Subtitle */}
+        <div className="text-center mb-2">
+          <h2 className="text-2xl md:text-4xl font-bold font-sans px-2">
             Explainable Lumbar Spinal Stenosis Diagnosis
           </h2>
         </div>
-
-        <div className="flex justify-center items-center mt-4 text-sky-600 text-sm gap-2">
-          <h2 className="text-xl font-regular font-sans ">
-            Arnesh Batra <sup>*</sup>
+        
+        {/* Conference info */}
+        <div className="text-center mb-4">
+          <h2 className="text-xl md:text-2xl font-medium font-sans">
+            CVPR'25 Demo
           </h2>
-          <h2 className="text-xl font-regular font-sans ">
-            Arush Gumber <sup>*</sup>
+        </div>
+        
+        {/* Authors section */}
+        <div className="flex flex-wrap justify-center items-center mt-4 text-sky-600 gap-2 md:gap-4 px-2">
+          <h2 className="text-lg md:text-xl font-regular font-sans">
+            Arnesh Batra<sup>*</sup>
           </h2>
-          <h2 className="text-xl font-regular font-sans ">
-            Anushk Kumar <sup>*</sup>
+          <h2 className="text-lg md:text-xl font-regular font-sans">
+            Arush Gumber
+          </h2>
+          <h2 className="text-lg md:text-xl font-regular font-sans">
+            Anushk Kumar
           </h2>
         </div>
 
-        {/* <div className="flex justify-center items-center text-sm gap-4">
-            <h2 className="text-xl font-regular font-sans ">Author 1 </h2>
-            <h2 className="text-xl font-regular font-sans ">Author 2 </h2>
-            <h2 className="text-xl font-regular font-sans ">Author 3 </h2>
-        </div> */}
-
-        <div className="flex justify-center items-center mt-4">
-          <h4 className="text-xl font-medium font-sans ">Indraprastha Institute of Information Technology, Delhi</h4>
+        {/* Institution */}
+        <div className="text-center mt-3 md:mt-4">
+          <h4 className="text-lg md:text-xl font-medium font-sans px-2">
+            Indraprastha Institute of Information Technology, Delhi
+          </h4>
         </div>
-        <div className="flex justify-center items-center">
-          {/* <h4 className="text-xl font-medium font-sans ">
-            CVPR
-          </h4> */}
-        </div>
-        <h3 className="text-sm font-medium font-sans mt-4 flex justify-center items-center text-gray-400">
+        
+        {/* Equal contribution note */}
+        <h3 className="text-xs md:text-sm font-medium font-sans mt-3 text-center text-gray-400">
           * Represents Equal Contribution
         </h3>
-
-        <div className="flex justify-center items-center mt-4 gap-2">
+        
+        {/* Buttons */}
+        <div className="flex justify-center items-center mt-4 md:mt-6 gap-2 md:gap-3">
           <GithubBtn />
-          {/* <ArxivBtn /> */}
-          <PDFBtn />
+          <ArxivBtn />
           <GradioBtn />
+        </div>
       </div>
-    </div>
     </div>
   );
 }
